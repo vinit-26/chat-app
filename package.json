@@ -1,5 +1,5 @@
 {
-  "name": "chart-app",
+  "name": "chat-app",
   "version": "1.0.0",
   "description": "this application is bassically for chating",
   "main": "app.js",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/vinit-26/chat-app#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
   }
 }

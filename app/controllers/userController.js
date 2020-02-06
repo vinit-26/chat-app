@@ -1,15 +1,15 @@
 const mongoose = require('mongoose');
 const shortid = require('shortid');
-const time = require('./../libs/timeLib');
-const response = require('./../libs/responseLib')
-const logger = require('./../libs/loggerLib');
-const validateInput = require('../libs/paramsValidationLib')
-const check = require('../libs/checkLib')
-const passwordLib = require('./../libs/generatePasswordLib');
-const token = require('../libs/tokenLib')
+const time = require('../lib/timeLib');
+const response = require('../lib/responseLib');
+const logger = require('../lib/loggerLib');
+const validateInput = require('../lib/paramsValidationLib');
+const check = require('../lib/checkLib');
+const passwordLib = require('../lib/generatePasswordLib');
+const token = require('../lib/tokenLib');
 
 /* Models */
-const UserModel = mongoose.model('User')
+const UserModel = mongoose.model('User');
 
 
 // start user signup function 
